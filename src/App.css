@@ -1,0 +1,72 @@
+h3 {
+  text-align: center;
+}
+
+body {
+  background: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-size: cover;
+  min-width: fit-content;
+  background-attachment: fixed;
+}
+
+.content {
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  color: white;
+}
+
+.reasons {
+  text-align: left;
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  color: white;
+  max-width: fit-content;
+}
+
+.contact {
+  max-width: fit-content;
+}
+
+ul  {
+  list-style: none;
+  font-size: 22px;
+
+}
+
+ul li {
+  padding-top: 0.5%;
+}
+
+ul li::before {
+  content: '✓ ';
+  color: lightgreen;
+}
+
+.brand {
+  padding: 1%;
+}
+
+table {
+  margin: auto;
+  max-width: fit-content;
+  text-align: center;
+}
+
+@media screen and (max-width: 968px) {
+  .footer{
+    visibility: hidden;
+    display: none;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
